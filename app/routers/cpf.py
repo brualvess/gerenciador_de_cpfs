@@ -94,3 +94,4 @@ async def get_all(db: Session = Depends(get_db)):
     result =  await crud.get_all_cpf(db)
     response = [{"cpf": data[0], "createdAt": data[1]}for data in result]
     return response
+
