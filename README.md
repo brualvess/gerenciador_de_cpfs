@@ -1,5 +1,7 @@
 # Desafio técnico back-end
 Esta é uma aplicação em python que oferece uma api de gerenciador de cpfs. Ela permite que você insira, delete e busque o cpf.
+
+**Obs: A aplicação só aceita cpfs válidos.**
 ___
 ## Tecnologias ultilizadas
 * FastAPi
